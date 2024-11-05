@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "perf": "deno run -A ./mod.ts"
+  },
+  "imports": {
+    "@aricart/cobra": "jsr:@aricart/cobra@^0.0.13",
+    "@aricart/nd-progress": "jsr:@aricart/nd-progress@^0.0.1",
+    "@aricart/runtime": "jsr:@aricart/runtime@^0.0.1",
+    "@nats-io/jetstream": "jsr:@nats-io/jetstream@3.0.0-23",
+    "@nats-io/transport-deno": "jsr:@nats-io/transport-deno@3.0.0-10"
+  }
+}

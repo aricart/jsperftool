@@ -1,0 +1,21 @@
+{
+  "name": "jstool",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aricart/cobra": "npm:@jsr/aricart__cobra@^0.0.12",
+    "@aricart/nd-progress": "npm:@jsr/aricart__nd-progress@^0.0.1",
+    "@aricart/runtime": "npm:@jsr/aricart__runtime@^0.0.1",
+    "@nats-io/jetstream": "^3.0.0-23",
+    "@nats-io/nats-core": "^3.0.0-35",
+    "@nats-io/transport-node": "^3.0.0-21"
+  }
+}
