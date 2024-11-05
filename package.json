@@ -16,6 +16,7 @@
     "@aricart/runtime": "npm:@jsr/aricart__runtime@^0.0.1",
     "@nats-io/jetstream": "^3.0.0-23",
     "@nats-io/nats-core": "^3.0.0-35",
-    "@nats-io/transport-node": "^3.0.0-21"
+    "@nats-io/transport-node": "^3.0.0-21",
+    "minimist": "^1.2.8"
   }
 }
